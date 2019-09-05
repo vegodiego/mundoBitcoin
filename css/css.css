@@ -1,0 +1,106 @@
+
+/********************************************************layout.ejs**********************************************************/
+/****************************************************************************************************************************/
+
+
+/*******************************************************Generalidades*********************************************************/
+body{
+    min-width: 320px;
+    background: #eee; 
+    font-family: open sans,-apple-system,BlinkMacSystemFont,segoe ui,Roboto,Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    line-height: 1.42857143;
+}
+ul{
+    list-style: none;
+    padding-left: 15px;
+}
+h4{
+    font-weight:400;
+}
+
+/*******************************************************Encabezado************************************************************/
+nav.navbar{
+    border-radius: 0px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.navbar-inverse {
+    background-color: #000533;
+    border-color:#000533;
+}
+nav.navbar a{
+    color: #ffc14d !important;
+}
+nav.navbar a:hover{
+    color: orange !important;
+}
+.navbar-inverse .navbar-toggle .icon-bar{
+    background-color: #ffc14d;
+}
+div.bannerImg{
+    height: 250px;
+    background-image: url("/css/images/btc.jpg ");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    margin-top: -20px;
+}
+
+/********************************************************contenedor de secciones************************************************/
+div.contenedorSecciones{
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+/***********************************************************sección derecha***************************************************/
+@media(max-width: 767px){
+    div.col-sm-3{
+        display:none; 
+    }
+}
+
+/*********************************************************index.ejs*********************************************************/
+/****************************************************************************************************************************/
+div.col-sm-7{
+    padding: 20px;
+}
+div#articulo{
+    border: 1px solid silver;
+    width: 95%;
+    border-width: 1px 0px;
+    margin-right:auto !important;
+    margin-left: auto !important;
+    background: white;
+}
+div#articulo a{
+    color: black !important;
+    text-decoration: none !important;
+}
+div#articulo a:hover{
+    color: #337ab7 !important;
+}
+
+/*********************************************************post.ejs*********************************************************/
+/******************************************************************************************************************************/
+article#publicacion{
+    text-align: justify;
+    padding:10%;
+    padding-top:5px; 
+    background: white;
+}
+
+article#publicacion img{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+article#publicacion h2{
+    text-align: left;
+}
+
+/*********************************************************archive.ejs*********************************************************/
+/******************************************************************************************************************************/
+div#archivo div.panel{
+   width: 300px;
+}
+
+
