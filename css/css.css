@@ -39,7 +39,7 @@ nav.navbar a:hover{
 }
 div.bannerImg{
     height: 250px;
-    background-image: url("/css/images/btc.jpg ");
+    background-image: url("css/images/btc.jpg ");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
