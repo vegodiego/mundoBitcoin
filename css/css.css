@@ -45,6 +45,11 @@ div.bannerImg{
     background-position: bottom;
     margin-top: -20px;
 }
+@media(max-width: 991px){
+    div.bannerImg{
+        height: 150px;
+    }
+}
 
 /********************************************************contenedor de secciones************************************************/
 div.contenedorSecciones{
